@@ -41,7 +41,7 @@ function applyCupon(promo){
   const successMsg = document.getElementById("success-msg");
   const failMsg = document.getElementById("fail-msg");
 
-  if (inputPromo == promo.toUpperCase()) {
+  if (inputPromo == promo.toLowerCase()) {
     successMsg.style.display = "flex";
     failMsg.style.display = "none";
 
